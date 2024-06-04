@@ -6,7 +6,13 @@ import "./bg.png";
 function App() {
   return (
     <>
-      <Flex as="main" direction="column" bgImage="./bg.png" w="full" h="full">
+      <Flex
+        as="main"
+        direction="column"
+        backgroundImage="url('./bg.png')"
+        w="full"
+        h="full"
+      >
         <Hero />
       </Flex>
     </>

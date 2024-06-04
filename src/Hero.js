@@ -44,6 +44,9 @@ const Hero = () => {
           </Text>
         </Button>
       </Flex>
+
+      {/* Home */}
+      <Flex bgColor="./bg.png" w="full" h="full"></Flex>
     </Flex>
   );
 };
