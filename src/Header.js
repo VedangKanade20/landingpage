@@ -19,7 +19,7 @@ const Header = () => {
       py="6"
       px="6"
       bg="#171923"
-      w="100%"
+      w="100vw"
       pos="fixed"
       top="0"
       left="0"
@@ -27,6 +27,8 @@ const Header = () => {
       shadow="lg"
       color="white"
       borderRadius="5"
+      mr="6"
+      ml="6"
     >
       <Flex direction="row" alignItems="center">
         <Image src="./assets/Frame.png" h="5" />
@@ -42,32 +44,25 @@ const Header = () => {
         </ListItem>
         <ListItem>
           <Link color="white" _hover={{ color: "gray.300" }}>
-            About
+            About us
           </Link>
         </ListItem>
         <ListItem>
           <Link color="white" _hover={{ color: "gray.300" }}>
-            Product
+            Pricing
           </Link>
         </ListItem>
         <ListItem>
           <Link color="white" _hover={{ color: "gray.300" }}>
-            Screen List
+            Features
           </Link>
         </ListItem>
       </List>
-      {/* <Button
-        borderRadius="10"
-        textAlign="center"
-        _hover={{
-          bgGradient: "linear(to-r, purple.600, purple.400)",
-          cursor: "pointer",
-        }}
-      >
+      <Button borderRadius="10" textAlign="center" w="100px">
         <Text fontFamily="sans-serif" fontSize="xl">
           SignUp
         </Text>
-      </Button> */}
+      </Button>
     </Box>
   );
 };
