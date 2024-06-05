@@ -1,6 +1,5 @@
 import { Flex } from "@chakra-ui/react";
 import Hero from "./Hero";
-import Header from "./Header";
 import "./bg.png";
 
 function App() {
