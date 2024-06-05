@@ -115,7 +115,7 @@ const Hero = () => {
         {/* </Grid> */}
       </Flex>
 
-      {/* About us */}
+      {/* {/* About us */}
       <Flex w="100vw" h="full">
         <Image src={bgImage} alt="Background" objectFit="cover" w="100%" />
       </Flex>
@@ -133,7 +133,7 @@ const Hero = () => {
       {/* Home */}
       <Flex w="100vw" h="full">
         <Image src={bgImage} alt="Background" objectFit="cover" w="100%" />
-      </Flex>
+      </Flex> */}
     </Flex>
   );
 };
